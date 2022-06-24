@@ -8,7 +8,7 @@
 - C++ installation guide [VS Code C++ Installation](https://code.visualstudio.com/docs/languages/cpp)
 
 ## Summary
-- This module of the project contains `binary operator` calculations. It consists `bitwaise` and `shifting` operators code
+- This module of the project contains `binary operator` calculations. It consists `bitwise` and `shifting` operators code
 
 ## Author
 
