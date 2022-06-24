@@ -13,7 +13,7 @@
 - C++ installation guide [VS Code C++ Installation](https://code.visualstudio.com/docs/languages/cpp)
 
 ## Installation
-- clone repository ```git clone https://github.com/RitobrotoMukherjee/patterns-DSA.git```
+- clone repository ```git clone https://github.com/RitobrotoMukherjee/DSA-computer-science.git```
 - After Cloning ```cd patterns-DSA```
 
 ## Author
