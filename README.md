@@ -1,7 +1,7 @@
 ## C++ DSA Practice
 - **It's a simple repository where you will find pattern related questions for logic building using while and for loops**
 - **You will also get LeetCode and HackerRank Question Solution with proper Time And Space Complexcity Analysys. To find the Time And Space Complexity check each of the ```README.md``` file inside every directory.**
-- **You will also get System Design Related modules also in coming days**
+- **You will also get System Design Related modules in upcoming days**
 - **YouTube channel to discuss all the questions COMING SOON**
 
 ## Technology Stack
