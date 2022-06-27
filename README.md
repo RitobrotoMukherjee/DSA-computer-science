@@ -14,7 +14,7 @@
 
 ## Installation
 - clone repository ```git clone https://github.com/RitobrotoMukherjee/DSA-computer-science.git```
-- After Cloning ```cd patterns-DSA```
+- After Cloning ```cd DSA-computer-science```
 
 ## Author
 
