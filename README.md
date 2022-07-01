@@ -16,6 +16,9 @@
 - clone repository ```git clone https://github.com/RitobrotoMukherjee/DSA-computer-science.git```
 - After Cloning ```cd DSA-computer-science```
 
+## Run Program
+>Move to any repository and run the `Code Runner` to run program. The program will compile and create and `executable`, and it will run in your terminal.
+
 ## Author
 
 
