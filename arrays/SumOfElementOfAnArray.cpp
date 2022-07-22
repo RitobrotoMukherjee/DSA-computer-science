@@ -18,7 +18,16 @@ int sum(int arr[], int size) {
 }
 
 int main () {
-    int arr[5] = { 1, 5, 7, 15, -2 };
+    int size;
+    cout << "Enter Size Of Array: ";
+    cin >> size;
+
+    int arr[102];
+    cout << "Enter elements: " << endl;
+    for(int i=0; i < size; i++) {
+        cin >> arr[i];
+        cout << endl;
+    }
     
     printArr(arr, 5);
 
