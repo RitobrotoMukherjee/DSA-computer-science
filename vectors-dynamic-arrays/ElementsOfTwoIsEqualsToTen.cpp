@@ -3,23 +3,26 @@ using namespace std;
 
 int main()
 {
-    vector<int> v = {2, 4, 3, 1, 7, 11, 9};
+    vector<int> v = {2, 4, 3, 1, 7, 11};
     int start = 0;
-    int size = v.size();
-
-    while (start < size)
+    int end = v.size() - 1;
+    sort(v.begin(), v.end());
+    while (end > start)
     {
-        int next = start + 1;
-        while (next < size)
+        int sum = v[start] + v[end];
+        if (sum == 10)
         {
-            int sum = v[start] + v[next];
-            if (sum == 10)
-            {
-                cout << v[start] << " + " << v[next] << " = " << sum;
-                cout << endl;
-            }
-            next++;
+            cout << v[start] << " + " << v[end] << " = " << sum;
+            cout << endl;
+            break;
         }
-        start++;
+        if (sum > 10)
+        {
+            end--;
+        }
+        if (sum < 10)
+        {
+            start++;
+        }
     }
 }
