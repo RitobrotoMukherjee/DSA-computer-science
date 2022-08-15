@@ -16,8 +16,6 @@ class node
 };
 
 node* createTree(node* root) {
-    cout << "Enter data to insert in node: ";
-
     int data;
     cin >> data;
 
@@ -36,6 +34,6 @@ node* createTree(node* root) {
 
 int main () {
     node* root = NULL;
-
+    cout << "Enter data to insert in node: ";
     root = createTree(root);
 }
