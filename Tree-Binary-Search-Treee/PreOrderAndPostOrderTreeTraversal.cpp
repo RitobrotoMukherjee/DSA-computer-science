@@ -60,7 +60,7 @@ int main () {
 
     Node *tree = createTree(root);
 
-    //2 7 2 -1 -1 6 -1 -1 5 4 -1 -1 9 -1 -1
+    //2 7 2 -1 -1 6 -1 -1 5 4 -1 -1 9 -1 -1 
 
     cout << "Printing tree with root node: " << tree->data << " In pre order: ";
     PreOrderTraversal(tree);
