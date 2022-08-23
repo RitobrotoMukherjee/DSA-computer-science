@@ -57,14 +57,11 @@ public:
       return node;
     }
 
-    if (node->data < current_head->data)
-    {
-      current_head->left = insertNode(node, current_head->left);
-    }
-
     if (node->data > current_head->data)
     {
       current_head->right = insertNode(node, current_head->right);
+    } else {
+      current_head->left = insertNode(node, current_head->left);
     }
 
     return current_head;
