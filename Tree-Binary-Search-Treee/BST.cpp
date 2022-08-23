@@ -35,8 +35,8 @@ public:
   Node(int d)
   {
     this->data = d;
-    Node *left = NULL;
-    Node *right = NULL;
+    this->left = NULL;
+    this->right = NULL;
   }
 };
 
@@ -47,12 +47,15 @@ public:
   Node *root;
   Node *insertNode(Node *node, Node *current_head)
   {
+    if(this->root == NULL) {
+      this->root = node;
+      return this->root;
+    }
+
     if (current_head == NULL)
     {
       return node;
     }
-
-    cout << "Node Data: " << node->data << endl;
 
     if (node->data < current_head->data)
     {
@@ -126,11 +129,13 @@ int main()
 
   cout << "Building the tree: " << endl;
 
-  BuildTree *tree = new BuildTree(new Node(arr[0]));
+  Node *root = NULL;
 
-  for (int i = 1; i < size; i++)
+  BuildTree *tree = new BuildTree(root);
+
+  for (int i = 0; i < size; i++)
   {
-    tree->root = tree->insertNode(new Node(arr[i]), tree->root);
+    tree->insertNode(new Node(arr[i]), tree->root);
   }
   tree->printTreeLevelOrder();
 }
