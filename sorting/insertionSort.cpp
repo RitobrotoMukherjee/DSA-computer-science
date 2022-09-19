@@ -9,7 +9,7 @@ void printArray(int arr[], int size) {
     cout << endl;
 }
 
-int insertionSort(int arr[], int size) {
+void insertionSort(int arr[], int size) {
     int i = 1;
     while( i < size) {
         int temp = arr[i];
