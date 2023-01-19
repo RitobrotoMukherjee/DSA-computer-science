@@ -9,6 +9,12 @@ void printArray(int arr[], int size) {
     cout << endl;
 }
 
+/**
+ * Insertion sort like cards
+ * 
+ * 
+*/
+
 void insertionSort(int arr[], int size) {
     int i = 1;
     while( i < size) {
