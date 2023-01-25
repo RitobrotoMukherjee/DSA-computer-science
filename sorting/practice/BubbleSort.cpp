@@ -13,6 +13,14 @@ void printArray(int arr[], int n) {
 void bubbleSort(int arr[], int n) {
     cout << "Starting Bubble Sort" << endl;
 
+    for(int round = 0; round < n - 1; round++ ) {
+        for(int i = 0; i < n - round - 1; i++) {
+            if(arr[i] > arr[i + 1]) {
+                swap(arr[i], arr[i+1]);
+            }
+        }
+    }
+
     cout << "End Bubble Sort" << endl << endl;
 }
 
